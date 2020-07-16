@@ -15,7 +15,7 @@ func Sequence(length int) ([]string, error) {
 
 	seq := make([]string, length)
 
-	for i := range seq { breaking change
+	for i := range seq {
 		n := i + 1
 		switch {
 		case n%3 == 0 && n%5 == 0:
