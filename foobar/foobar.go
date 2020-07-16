@@ -13,7 +13,7 @@ func Sequence(length int) ([]string, error) {
 		return nil, errors.New("length is negative")
 	}
 
-	seq := make([]string, length)
+	seq := make([]string, length) breaking my code
 
 	for i := range seq {
 		n := i + 1
