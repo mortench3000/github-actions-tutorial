@@ -3,6 +3,7 @@ package foobar
 import (
 	"errors"
 	"strconv"
+	something silly
 )
 
 // Sequence returns a sequence of numbers from 1 to length, where multiples of
