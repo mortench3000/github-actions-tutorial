@@ -11,6 +11,7 @@ import (
 func Sequence(length int) ([]string, error) {
 	if length < 0 {
 		return nil, errors.New("length is negative")
+		write some really bad code
 	}
 
 	seq := make([]string, length)
